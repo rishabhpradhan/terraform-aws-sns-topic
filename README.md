@@ -7,7 +7,7 @@ Terraform AWS SNS Topic
 ```
     module "terraform-aws-sns-topic"
      {
-        source  = "git::https://github.com/rishabhpradhan/terraform-aws-sns-topic"
+        source  = "git::https://github.com/rishabhpradhan/terraform-aws-sns-topic.git"
         name  = "my-topic"
     }
  ```
